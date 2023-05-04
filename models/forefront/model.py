@@ -8,7 +8,7 @@ import uuid
 import json
 import logging
 
-class Model:
+class FF_Model:
 	@classmethod
 	def __init__(self: object, sessionID: str, client: str, model: Optional[str] = "gpt-3.5-turbo", 
 		conversationID: Optional[Union[str, None]] = None
