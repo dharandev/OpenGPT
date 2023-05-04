@@ -7,7 +7,7 @@ import tls_client
 import fake_useragent
 import json
 
-class Model:
+class you_Model:
 	@classmethod
 	def __init__(self: type) -> None:
 		self.__SETUP_LOGGER()
