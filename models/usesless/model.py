@@ -3,7 +3,7 @@ from .tools.typing.response import UseslessResponse
 import requests
 import json
 
-class Model:
+class Usesless_Model:
 	@classmethod
 	def __init__(self: type, model: Optional[str] = "gpt-3.5-turbo", temperature: Optional[int] = 1) -> None:
 		self.__session: requests.Session = requests.Session()
