@@ -4,7 +4,7 @@ import requests
 import uuid
 import fake_useragent
 
-class Model:
+class Cocal_Model:
    @classmethod
    def __init__(self: type, complex: Optional[bool] = False) -> None:
       self.__session: requests.Session = requests.Session()
